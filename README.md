@@ -1,16 +1,46 @@
-# React + Vite
+# Jungle Adventure: 3D Endless Runner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, visually stunning 3D endless runner game built with **React**, **Three.js** (@react-three/fiber/@react-three/drei), and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![Jungle Adventure Gameplay](https://via.placeholder.com/800x400?text=Jungle+Adventure+Endless+Runner)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎮 Features
 
-## React Compiler
+- **Procedural Level Generation**: Endless road with dynamic obstacle spawning.
+- **Advanced Player Mechanics**: Smooth lane-switching, jumping, and sliding controls.
+- **Dynamic Obstacle System**:
+  - **Jump**: Fire Lines, Broken Paths, Energy Barriers.
+  - **Slide**: Hanging Logs, Tree Branches, High Fire Traps.
+  - **Lane-Switch**: Lane Blocks, Spike Traps, Swing Blades, Rolling Boulders.
+- **Immersive Environment**: Procedural jungle aesthetics with dynamic lighting and particle effects.
+- **Interactive UI**: Animated start screen, real-time score tracking, and high-impact game over screens.
+- **State Management**: Optimized React-based game loop with collision detection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Jayanth893/temple-run-reelated-game-.git
+   cd temple-run-reelated-game-
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ Tech Stack
+
+- **Core**: React 19
+- **Rendering**: Three.js & React Three Fiber
+- **Styling**: Tailwind CSS 4
+- **Build Tool**: Vite
+
+## 📜 License
+
+MIT
